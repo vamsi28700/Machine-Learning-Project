@@ -1,0 +1,100 @@
+Improved Algorithms(in %)
+
+Algorithms		Previous	Improved 
+Decision Tree		0.75		0.81
+K-NN Clustering		0.65		0.81
+K-Means			0.26		0.60
+Naive Bayes		0.79		0.81
+Ensemble(DecisionTree)	0.77		0.88
+ANN			0.70		0.81
+
+
+Algorithms With Accuracies(in %)
+
+Algorithms				Accuracies
+Voting Ensemble(Selected)		0.82
+SVM(All Features)			0.81
+XGBoost(Selected)			0.69
+RandomForest(Up Sampled)		0.84
+GradientBoosting(Selected)		0.80
+Decision Tree(All Features)		0.81
+AdaBoost(Selected)			0.79
+LinearDiscriminant(All Features)	0.81
+K-NN(All Features)			0.81
+Naive Bayes(All Features)		0.81
+Logistic(All Features)			0.81
+ANN					0.81
+MLP					0.80
+SLP					0.70
+Extra Tree Classifier			0.89
+K-Means					0.60
+Ensemble(AdaBoost)			0.71
+Ensemble(DecisionTree)			0.88
+Ensemble(Logistic)			0.55
+					
+
+All Features(in %)
+
+Algorithms		Accuracies	Precision	Recall		f1-score
+Voting Ensemble		0.79		1.00		0.79		0.88
+SVM			0.81		0.82		0.75		0.79
+XGboost			0.67		0.94		0.79		0.86
+RandomForest		0.78		0.94		0.79		0.86
+GradientBoosting	0.78		1.00		0.79		0.88
+Decision Tree		0.81		0.92		0.80		0.86
+AdaBoost		0.78		1.00		0.79		0.88
+LinearDiscriminant	0.81		1.00		0.79		0.88
+K-NN 			0.81		0.97		0.80		0.88
+Naive Bayes		0.81		1.00		0.79		0.88
+Logistic		0.81		0.95		0.80		0.87
+MLP			0.80		0.68		0.74		0.71
+K-Means			0.60		0.51		0.68		0.59
+
+
+
+Selected Features(in %)
+
+["Loan_ID","Gender","Married","Education","Self_Employed","Loan_Amount_Term","Loan_Status","Property_Area"]
+
+Algorithms		Accuracies	Precision	Recall		f1-score
+Voting Ensemble		0.82		1.00		0.78		0.88
+SVM			0.80		0.84		0.76		0.79
+XGBoost			0.69		0.96		0.79		0.87
+RandomForest		0.79		0.93		0.81		0.87
+GradientBoosting	0.80		1.00		0.78		0.88
+Decision Tree		0.80		0.94		0.80		0.86
+AdaBoost		0.79		1.00		0.78		0.88
+LinearDiscriminant	0.80		1.00		0.78		0.88
+K-NN			0.80		0.96		0.79		0.87
+Naive Bayes		0.79		1.00		0.78		0.88
+Logistic 		0.80		0.96		0.79		0.87
+
+DownSampled(in %)
+
+Algorithms		Accuracies	Precision	Recall		f1-score
+Voting Ensemble		0.61		1.00		0.68		0.81
+SVM			0.73		0.58		0.69		0.63
+XGBoost			0.62		0.66		0.70		0.68
+RandomForest		0.65		0.58		0.69		0.63
+GradientBoosting	0.62		0.74		0.71		0.73
+Decision Tree		0.68		0.52		0.67		0.58
+AdaBoost		0.58		0.90		0.67		0.77
+LinearDiscriminant	0.70		0.90		0.66		0.76
+K-NN			0.68		0.90		0.66		0.76
+Naive Bayes		0.68		0.88		0.68		0.77
+Logistic 		0.70		0.56		0.68		0.62
+
+UpSampled(in %)
+
+Algorithms		Accuracies	Precision	Recall		f1-score
+Voting Ensemble		0.74		1.00		0.58		0.73
+SVM			0.68		0.78		0.59		0.67
+XGBoost			0.65		0.86		0.80		0.83
+RandomForest		0.84		0.77		0.64		0.70
+GradientBoosting	0.70		0.53		0.64		0.58
+Decision Tree		0.66		0.80		0.59		0.68
+AdaBoost		0.66		0.86		0.59		0.70
+LinearDiscriminant	0.67		0.80		0.64		0.71
+K-NN			0.71		0.94		0.59		0.73
+Naive Bayes		0.69		0.83		0.58		0.68
+Logistic 		0.66		0.82		0.67		0.73
